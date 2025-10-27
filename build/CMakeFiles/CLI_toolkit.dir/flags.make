@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/matiss/CLI-tool/CLI-toolkit/include -I/home/matiss/CLI-tool/CLI-toolkit/src -I/home/matiss/CLI-tool/CLI-toolkit/include/commands -I/home/matiss/CLI-tool/CLI-toolkit/include/utils
+CXX_INCLUDES = -I/home/matiss/CLI-toolkit/include -I/home/matiss/CLI-toolkit/src -I/home/matiss/CLI-toolkit/include/commands -I/home/matiss/CLI-toolkit/include/utils
 
 CXX_FLAGS = -std=gnu++17
 

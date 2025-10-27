@@ -7,6 +7,7 @@ void stats(const std::string &FileName)
 {
     std::ifstream FileToRead (FileName);
     std::cout << "The file has ";
+    std::ifstream FileForLetters (FileName);  // to avoid reading from the end of the file, check bellow
     int Counter = 0;
     char ch;
     std::string Word;
@@ -20,9 +21,9 @@ void stats(const std::string &FileName)
     {
         ++Counter;
     }
-    std::cout<<Counter<< " Words, \n";
+    std::cout<<Counter<< " Words, \n";       // would normaly read all the file.  
     Counter = 0;
-    while(FileToRead.get(ch)) 
+    while(FileForLetters.get(ch)) 
     {
         ++Counter;
     }

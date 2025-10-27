@@ -1,7 +1,7 @@
 CMakeFiles/CLI_toolkit.dir/include/utils/file_utils.cpp.o: \
- /home/matiss/CLI-tool/CLI-toolkit/include/utils/file_utils.cpp \
+ /home/matiss/CLI-toolkit/include/utils/file_utils.cpp \
  /usr/include/stdc-predef.h \
- /home/matiss/CLI-tool/CLI-toolkit/include/utils/file_utils.hpp \
+ /home/matiss/CLI-toolkit/include/utils/file_utils.hpp \
  /usr/include/c++/13/iostream /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \

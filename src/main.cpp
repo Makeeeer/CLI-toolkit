@@ -20,11 +20,11 @@ int main(int argc, char *argv[])
         PrintHelp();
     }
     const std::string command = argv[1];
-    std::string FileName;
+    std::string FileName = argv[2];
     
     std::string WordToFind;
     if (command == "find_word" && argc > 3)
-    WordToFind = argv[2];
+    WordToFind = argv[3];
 
     
 
@@ -32,16 +32,16 @@ int main(int argc, char *argv[])
     if (command == "make_copy" && argc == 3)
     {
         make_copy(FileName);
-    };
-    if (command == "find_duplicates" && argc == 3)
+    }
+    else if (command == "find_duplicates" && argc == 3)
     {
        FindDuplicates(FileName);
-    };
-    if (command == "find_word" && argc == 4)
+    }
+    else if (command == "find_word" && argc == 4)
     {
         FindWord(FileName,WordToFind);
-    };
-    if (command == "stats" && argc == 3)
+    }
+    else if (command == "stats" && argc == 3)
     {
         stats(FileName);
     }

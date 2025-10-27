@@ -1,4 +1,4 @@
-# Install script for directory: /home/matiss/CLI-tool/CLI-toolkit
+# Install script for directory: /home/matiss/CLI-toolkit
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/matiss/CLI-tool/CLI-toolkit/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/matiss/CLI-toolkit/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

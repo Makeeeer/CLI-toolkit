@@ -1,7 +1,6 @@
 CMakeFiles/CLI_toolkit.dir/src/main.cpp.o: \
- /home/matiss/CLI-tool/CLI-toolkit/src/main.cpp \
- /usr/include/stdc-predef.h /usr/include/c++/13/iostream \
- /usr/include/c++/13/bits/requires_hosted.h \
+ /home/matiss/CLI-toolkit/src/main.cpp /usr/include/stdc-predef.h \
+ /usr/include/c++/13/iostream /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -154,8 +153,8 @@ CMakeFiles/CLI_toolkit.dir/src/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
  /usr/include/c++/13/bits/fstream.tcc \
- /home/matiss/CLI-tool/CLI-toolkit/include/commands/commands.hpp \
- /home/matiss/CLI-tool/CLI-toolkit/include/utils/file_utils.hpp \
+ /home/matiss/CLI-toolkit/include/commands/commands.hpp \
+ /home/matiss/CLI-toolkit/include/utils/file_utils.hpp \
  /usr/include/c++/13/vector /usr/include/c++/13/bits/stl_uninitialized.h \
  /usr/include/c++/13/bits/stl_vector.h \
  /usr/include/c++/13/bits/stl_bvector.h \

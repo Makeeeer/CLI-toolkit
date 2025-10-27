@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/matiss/CLI-tool/CLI-toolkit
+CMAKE_SOURCE_DIR = /home/matiss/CLI-toolkit
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/matiss/CLI-tool/CLI-toolkit/build
+CMAKE_BINARY_DIR = /home/matiss/CLI-toolkit/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/CLI_toolkit.dir/depend.make
@@ -70,88 +70,88 @@ include CMakeFiles/CLI_toolkit.dir/progress.make
 include CMakeFiles/CLI_toolkit.dir/flags.make
 
 CMakeFiles/CLI_toolkit.dir/src/main.cpp.o: CMakeFiles/CLI_toolkit.dir/flags.make
-CMakeFiles/CLI_toolkit.dir/src/main.cpp.o: /home/matiss/CLI-tool/CLI-toolkit/src/main.cpp
+CMakeFiles/CLI_toolkit.dir/src/main.cpp.o: /home/matiss/CLI-toolkit/src/main.cpp
 CMakeFiles/CLI_toolkit.dir/src/main.cpp.o: CMakeFiles/CLI_toolkit.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/matiss/CLI-tool/CLI-toolkit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CLI_toolkit.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CLI_toolkit.dir/src/main.cpp.o -MF CMakeFiles/CLI_toolkit.dir/src/main.cpp.o.d -o CMakeFiles/CLI_toolkit.dir/src/main.cpp.o -c /home/matiss/CLI-tool/CLI-toolkit/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/matiss/CLI-toolkit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CLI_toolkit.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CLI_toolkit.dir/src/main.cpp.o -MF CMakeFiles/CLI_toolkit.dir/src/main.cpp.o.d -o CMakeFiles/CLI_toolkit.dir/src/main.cpp.o -c /home/matiss/CLI-toolkit/src/main.cpp
 
 CMakeFiles/CLI_toolkit.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CLI_toolkit.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matiss/CLI-tool/CLI-toolkit/src/main.cpp > CMakeFiles/CLI_toolkit.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matiss/CLI-toolkit/src/main.cpp > CMakeFiles/CLI_toolkit.dir/src/main.cpp.i
 
 CMakeFiles/CLI_toolkit.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CLI_toolkit.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matiss/CLI-tool/CLI-toolkit/src/main.cpp -o CMakeFiles/CLI_toolkit.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matiss/CLI-toolkit/src/main.cpp -o CMakeFiles/CLI_toolkit.dir/src/main.cpp.s
 
 CMakeFiles/CLI_toolkit.dir/include/commands/find_duplicates.cpp.o: CMakeFiles/CLI_toolkit.dir/flags.make
-CMakeFiles/CLI_toolkit.dir/include/commands/find_duplicates.cpp.o: /home/matiss/CLI-tool/CLI-toolkit/include/commands/find_duplicates.cpp
+CMakeFiles/CLI_toolkit.dir/include/commands/find_duplicates.cpp.o: /home/matiss/CLI-toolkit/include/commands/find_duplicates.cpp
 CMakeFiles/CLI_toolkit.dir/include/commands/find_duplicates.cpp.o: CMakeFiles/CLI_toolkit.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/matiss/CLI-tool/CLI-toolkit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CLI_toolkit.dir/include/commands/find_duplicates.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CLI_toolkit.dir/include/commands/find_duplicates.cpp.o -MF CMakeFiles/CLI_toolkit.dir/include/commands/find_duplicates.cpp.o.d -o CMakeFiles/CLI_toolkit.dir/include/commands/find_duplicates.cpp.o -c /home/matiss/CLI-tool/CLI-toolkit/include/commands/find_duplicates.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/matiss/CLI-toolkit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CLI_toolkit.dir/include/commands/find_duplicates.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CLI_toolkit.dir/include/commands/find_duplicates.cpp.o -MF CMakeFiles/CLI_toolkit.dir/include/commands/find_duplicates.cpp.o.d -o CMakeFiles/CLI_toolkit.dir/include/commands/find_duplicates.cpp.o -c /home/matiss/CLI-toolkit/include/commands/find_duplicates.cpp
 
 CMakeFiles/CLI_toolkit.dir/include/commands/find_duplicates.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CLI_toolkit.dir/include/commands/find_duplicates.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matiss/CLI-tool/CLI-toolkit/include/commands/find_duplicates.cpp > CMakeFiles/CLI_toolkit.dir/include/commands/find_duplicates.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matiss/CLI-toolkit/include/commands/find_duplicates.cpp > CMakeFiles/CLI_toolkit.dir/include/commands/find_duplicates.cpp.i
 
 CMakeFiles/CLI_toolkit.dir/include/commands/find_duplicates.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CLI_toolkit.dir/include/commands/find_duplicates.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matiss/CLI-tool/CLI-toolkit/include/commands/find_duplicates.cpp -o CMakeFiles/CLI_toolkit.dir/include/commands/find_duplicates.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matiss/CLI-toolkit/include/commands/find_duplicates.cpp -o CMakeFiles/CLI_toolkit.dir/include/commands/find_duplicates.cpp.s
 
 CMakeFiles/CLI_toolkit.dir/include/commands/find_word.cpp.o: CMakeFiles/CLI_toolkit.dir/flags.make
-CMakeFiles/CLI_toolkit.dir/include/commands/find_word.cpp.o: /home/matiss/CLI-tool/CLI-toolkit/include/commands/find_word.cpp
+CMakeFiles/CLI_toolkit.dir/include/commands/find_word.cpp.o: /home/matiss/CLI-toolkit/include/commands/find_word.cpp
 CMakeFiles/CLI_toolkit.dir/include/commands/find_word.cpp.o: CMakeFiles/CLI_toolkit.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/matiss/CLI-tool/CLI-toolkit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CLI_toolkit.dir/include/commands/find_word.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CLI_toolkit.dir/include/commands/find_word.cpp.o -MF CMakeFiles/CLI_toolkit.dir/include/commands/find_word.cpp.o.d -o CMakeFiles/CLI_toolkit.dir/include/commands/find_word.cpp.o -c /home/matiss/CLI-tool/CLI-toolkit/include/commands/find_word.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/matiss/CLI-toolkit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CLI_toolkit.dir/include/commands/find_word.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CLI_toolkit.dir/include/commands/find_word.cpp.o -MF CMakeFiles/CLI_toolkit.dir/include/commands/find_word.cpp.o.d -o CMakeFiles/CLI_toolkit.dir/include/commands/find_word.cpp.o -c /home/matiss/CLI-toolkit/include/commands/find_word.cpp
 
 CMakeFiles/CLI_toolkit.dir/include/commands/find_word.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CLI_toolkit.dir/include/commands/find_word.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matiss/CLI-tool/CLI-toolkit/include/commands/find_word.cpp > CMakeFiles/CLI_toolkit.dir/include/commands/find_word.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matiss/CLI-toolkit/include/commands/find_word.cpp > CMakeFiles/CLI_toolkit.dir/include/commands/find_word.cpp.i
 
 CMakeFiles/CLI_toolkit.dir/include/commands/find_word.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CLI_toolkit.dir/include/commands/find_word.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matiss/CLI-tool/CLI-toolkit/include/commands/find_word.cpp -o CMakeFiles/CLI_toolkit.dir/include/commands/find_word.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matiss/CLI-toolkit/include/commands/find_word.cpp -o CMakeFiles/CLI_toolkit.dir/include/commands/find_word.cpp.s
 
 CMakeFiles/CLI_toolkit.dir/include/commands/make_copy.cpp.o: CMakeFiles/CLI_toolkit.dir/flags.make
-CMakeFiles/CLI_toolkit.dir/include/commands/make_copy.cpp.o: /home/matiss/CLI-tool/CLI-toolkit/include/commands/make_copy.cpp
+CMakeFiles/CLI_toolkit.dir/include/commands/make_copy.cpp.o: /home/matiss/CLI-toolkit/include/commands/make_copy.cpp
 CMakeFiles/CLI_toolkit.dir/include/commands/make_copy.cpp.o: CMakeFiles/CLI_toolkit.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/matiss/CLI-tool/CLI-toolkit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CLI_toolkit.dir/include/commands/make_copy.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CLI_toolkit.dir/include/commands/make_copy.cpp.o -MF CMakeFiles/CLI_toolkit.dir/include/commands/make_copy.cpp.o.d -o CMakeFiles/CLI_toolkit.dir/include/commands/make_copy.cpp.o -c /home/matiss/CLI-tool/CLI-toolkit/include/commands/make_copy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/matiss/CLI-toolkit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CLI_toolkit.dir/include/commands/make_copy.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CLI_toolkit.dir/include/commands/make_copy.cpp.o -MF CMakeFiles/CLI_toolkit.dir/include/commands/make_copy.cpp.o.d -o CMakeFiles/CLI_toolkit.dir/include/commands/make_copy.cpp.o -c /home/matiss/CLI-toolkit/include/commands/make_copy.cpp
 
 CMakeFiles/CLI_toolkit.dir/include/commands/make_copy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CLI_toolkit.dir/include/commands/make_copy.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matiss/CLI-tool/CLI-toolkit/include/commands/make_copy.cpp > CMakeFiles/CLI_toolkit.dir/include/commands/make_copy.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matiss/CLI-toolkit/include/commands/make_copy.cpp > CMakeFiles/CLI_toolkit.dir/include/commands/make_copy.cpp.i
 
 CMakeFiles/CLI_toolkit.dir/include/commands/make_copy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CLI_toolkit.dir/include/commands/make_copy.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matiss/CLI-tool/CLI-toolkit/include/commands/make_copy.cpp -o CMakeFiles/CLI_toolkit.dir/include/commands/make_copy.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matiss/CLI-toolkit/include/commands/make_copy.cpp -o CMakeFiles/CLI_toolkit.dir/include/commands/make_copy.cpp.s
 
 CMakeFiles/CLI_toolkit.dir/include/commands/stats.cpp.o: CMakeFiles/CLI_toolkit.dir/flags.make
-CMakeFiles/CLI_toolkit.dir/include/commands/stats.cpp.o: /home/matiss/CLI-tool/CLI-toolkit/include/commands/stats.cpp
+CMakeFiles/CLI_toolkit.dir/include/commands/stats.cpp.o: /home/matiss/CLI-toolkit/include/commands/stats.cpp
 CMakeFiles/CLI_toolkit.dir/include/commands/stats.cpp.o: CMakeFiles/CLI_toolkit.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/matiss/CLI-tool/CLI-toolkit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CLI_toolkit.dir/include/commands/stats.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CLI_toolkit.dir/include/commands/stats.cpp.o -MF CMakeFiles/CLI_toolkit.dir/include/commands/stats.cpp.o.d -o CMakeFiles/CLI_toolkit.dir/include/commands/stats.cpp.o -c /home/matiss/CLI-tool/CLI-toolkit/include/commands/stats.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/matiss/CLI-toolkit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CLI_toolkit.dir/include/commands/stats.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CLI_toolkit.dir/include/commands/stats.cpp.o -MF CMakeFiles/CLI_toolkit.dir/include/commands/stats.cpp.o.d -o CMakeFiles/CLI_toolkit.dir/include/commands/stats.cpp.o -c /home/matiss/CLI-toolkit/include/commands/stats.cpp
 
 CMakeFiles/CLI_toolkit.dir/include/commands/stats.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CLI_toolkit.dir/include/commands/stats.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matiss/CLI-tool/CLI-toolkit/include/commands/stats.cpp > CMakeFiles/CLI_toolkit.dir/include/commands/stats.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matiss/CLI-toolkit/include/commands/stats.cpp > CMakeFiles/CLI_toolkit.dir/include/commands/stats.cpp.i
 
 CMakeFiles/CLI_toolkit.dir/include/commands/stats.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CLI_toolkit.dir/include/commands/stats.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matiss/CLI-tool/CLI-toolkit/include/commands/stats.cpp -o CMakeFiles/CLI_toolkit.dir/include/commands/stats.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matiss/CLI-toolkit/include/commands/stats.cpp -o CMakeFiles/CLI_toolkit.dir/include/commands/stats.cpp.s
 
 CMakeFiles/CLI_toolkit.dir/include/utils/file_utils.cpp.o: CMakeFiles/CLI_toolkit.dir/flags.make
-CMakeFiles/CLI_toolkit.dir/include/utils/file_utils.cpp.o: /home/matiss/CLI-tool/CLI-toolkit/include/utils/file_utils.cpp
+CMakeFiles/CLI_toolkit.dir/include/utils/file_utils.cpp.o: /home/matiss/CLI-toolkit/include/utils/file_utils.cpp
 CMakeFiles/CLI_toolkit.dir/include/utils/file_utils.cpp.o: CMakeFiles/CLI_toolkit.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/matiss/CLI-tool/CLI-toolkit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CLI_toolkit.dir/include/utils/file_utils.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CLI_toolkit.dir/include/utils/file_utils.cpp.o -MF CMakeFiles/CLI_toolkit.dir/include/utils/file_utils.cpp.o.d -o CMakeFiles/CLI_toolkit.dir/include/utils/file_utils.cpp.o -c /home/matiss/CLI-tool/CLI-toolkit/include/utils/file_utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/matiss/CLI-toolkit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CLI_toolkit.dir/include/utils/file_utils.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CLI_toolkit.dir/include/utils/file_utils.cpp.o -MF CMakeFiles/CLI_toolkit.dir/include/utils/file_utils.cpp.o.d -o CMakeFiles/CLI_toolkit.dir/include/utils/file_utils.cpp.o -c /home/matiss/CLI-toolkit/include/utils/file_utils.cpp
 
 CMakeFiles/CLI_toolkit.dir/include/utils/file_utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CLI_toolkit.dir/include/utils/file_utils.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matiss/CLI-tool/CLI-toolkit/include/utils/file_utils.cpp > CMakeFiles/CLI_toolkit.dir/include/utils/file_utils.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matiss/CLI-toolkit/include/utils/file_utils.cpp > CMakeFiles/CLI_toolkit.dir/include/utils/file_utils.cpp.i
 
 CMakeFiles/CLI_toolkit.dir/include/utils/file_utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CLI_toolkit.dir/include/utils/file_utils.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matiss/CLI-tool/CLI-toolkit/include/utils/file_utils.cpp -o CMakeFiles/CLI_toolkit.dir/include/utils/file_utils.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matiss/CLI-toolkit/include/utils/file_utils.cpp -o CMakeFiles/CLI_toolkit.dir/include/utils/file_utils.cpp.s
 
 # Object files for target CLI_toolkit
 CLI_toolkit_OBJECTS = \
@@ -173,7 +173,7 @@ CLI_toolkit: CMakeFiles/CLI_toolkit.dir/include/commands/stats.cpp.o
 CLI_toolkit: CMakeFiles/CLI_toolkit.dir/include/utils/file_utils.cpp.o
 CLI_toolkit: CMakeFiles/CLI_toolkit.dir/build.make
 CLI_toolkit: CMakeFiles/CLI_toolkit.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/matiss/CLI-tool/CLI-toolkit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable CLI_toolkit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/matiss/CLI-toolkit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable CLI_toolkit"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CLI_toolkit.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -185,6 +185,6 @@ CMakeFiles/CLI_toolkit.dir/clean:
 .PHONY : CMakeFiles/CLI_toolkit.dir/clean
 
 CMakeFiles/CLI_toolkit.dir/depend:
-	cd /home/matiss/CLI-tool/CLI-toolkit/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/matiss/CLI-tool/CLI-toolkit /home/matiss/CLI-tool/CLI-toolkit /home/matiss/CLI-tool/CLI-toolkit/build /home/matiss/CLI-tool/CLI-toolkit/build /home/matiss/CLI-tool/CLI-toolkit/build/CMakeFiles/CLI_toolkit.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/matiss/CLI-toolkit/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/matiss/CLI-toolkit /home/matiss/CLI-toolkit /home/matiss/CLI-toolkit/build /home/matiss/CLI-toolkit/build /home/matiss/CLI-toolkit/build/CMakeFiles/CLI_toolkit.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/CLI_toolkit.dir/depend
 
