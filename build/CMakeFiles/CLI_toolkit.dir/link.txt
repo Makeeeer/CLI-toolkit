@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/CLI_toolkit.dir/src/main.cpp.o CMakeFiles/CLI_toolkit.dir/include/commands/find_duplicates.cpp.o CMakeFiles/CLI_toolkit.dir/include/commands/find_word.cpp.o CMakeFiles/CLI_toolkit.dir/include/commands/make_copy.cpp.o CMakeFiles/CLI_toolkit.dir/include/commands/stats.cpp.o CMakeFiles/CLI_toolkit.dir/include/utils/file_utils.cpp.o -o CLI_toolkit 

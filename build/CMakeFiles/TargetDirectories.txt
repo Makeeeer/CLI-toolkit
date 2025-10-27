@@ -1,0 +1,4 @@
+/home/matiss/CLI-tool/CLI-toolkit/build/CMakeFiles/CLI_toolkit.dir
+/home/matiss/CLI-tool/CLI-toolkit/build/CMakeFiles/test.dir
+/home/matiss/CLI-tool/CLI-toolkit/build/CMakeFiles/edit_cache.dir
+/home/matiss/CLI-tool/CLI-toolkit/build/CMakeFiles/rebuild_cache.dir
